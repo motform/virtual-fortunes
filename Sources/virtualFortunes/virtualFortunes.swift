@@ -1,7 +1,7 @@
 import Foundation
 
-// safe opening of cookie jar
 func openJar(pathToJar: String) throws -> String? {
+	/* Hopefully safe opening of a cookie jar */
 	do {
 		let cookieJar = try NSString(contentsOfFile: pathToJar, encoding: String.Encoding.utf8.rawValue)
 		return String(cookieJar)
@@ -12,15 +12,17 @@ func openJar(pathToJar: String) throws -> String? {
 	}
 }
 
-// parse the jar the simple way
-// TODO: a better handling of optionals
 func parseJar(jar: String!) -> [String] {
+	/* Parses a cooike jar */
+	// TODO
+	// * a better handling of optionals
+	// * return error if unable to parse jar
 	return jar.components(separatedBy: "\n%\n")
 }
 
-// tell a random fortune from the parsed jar
-func tellFortune(jar: [String]) {
-	if let fortune = jar.randomElement() {
+func tellFortune(parsedJar: [String]) {
+	/* Tells a random fortune from the parsed jar */
+	if let fortune = parsedJar.randomElement() {
 		print(fortune)
 	} else {  // change into a do-catch error type situation?
 		print("Cookie jar is empty!")

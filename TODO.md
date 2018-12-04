@@ -3,9 +3,9 @@
 [x] - Jar parsing
 
 # Baseline
-[ ] - Running in path
-[ ] - Path variable cookie jar
-[ ] - Swift package
+[x] - Running in path
+[x] - Path variable cookie jar
+[x] - Swift package
 
 # Extensions
 [ ] - Citation features
