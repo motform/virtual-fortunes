@@ -22,10 +22,15 @@ func parseJar(jar: String!) -> [String] {
 	return parsedJar
 }
 
-func tellFortune(parsedJar: [String]) {
+func tellFortune(parsedJar: [String], context: Bool) {
 	/* Tells a random fortune from the parsed jar */
 	if let fortune = parsedJar.randomElement() {
-		print(fortune)
+		if context {
+			print(fortune)
+		} else {
+			let fortuneWithoutContext = fortune.components(separatedBy: "\"")
+			print(fortuneWithoutContext[1])
+		}
 	} else {  // change into a do-catch error type situation?
 		print("Cookie jar is empty!")
 	}
