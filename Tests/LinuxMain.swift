@@ -1,7 +1,7 @@
 import XCTest
 
-import virtual_fortunesTests
+import virtualFortunesTests
 
 var tests = [XCTestCaseEntry]()
-tests += virtual_fortunesTests.allTests()
+tests += virtualFortunesTests.allTests()
 XCTMain(tests)

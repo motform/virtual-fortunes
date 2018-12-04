@@ -1,13 +1,13 @@
 # Spike 1
-[ ] - File IO
-[ ] - Jar parsing
+[x] - File IO
+[x] - Jar parsing
 
-___
-
-[ ] - Running tests
+# Baseline
 [ ] - Running in path
 [ ] - Path variable cookie jar
 [ ] - Swift package
+
+# Extensions
 [ ] - Citation features
 [ ] - Implement -a
 [ ] - Implement -s
