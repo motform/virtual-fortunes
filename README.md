@@ -1,7 +1,7 @@
 # virtual-fortunes from a future past
 
 ## Intro
-At its core, virtual-fortunes is a stripped down version of Ken Arnold's BSD classic [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix). It parses the cookie jar directly, no index required. 
+At its core, virtual-fortunes is a stripped down version of Ken Arnold's BSD classic [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)). It parses the cookie jar directly, no index required. 
 
 ## Installation
 For the moment, you have to build virtual-fortunes yourself. This means you need a Swift toolchain installed. If you are on macOS, you are in luck.
@@ -20,6 +20,7 @@ Add the following to your .rc:
 export FORTUNES_FILE="path/to/ccru_fortunes"
 ```
 ### Fish
+Run the following command:
 ```fish
 set -Ux FORTUNES_FILE "path/to/ccru_fortunes"
 ```

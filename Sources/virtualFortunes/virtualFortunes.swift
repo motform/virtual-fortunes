@@ -17,7 +17,9 @@ func parseJar(jar: String!) -> [String] {
 	// TODO
 	// * a better handling of optionals
 	// * return error if unable to parse jar
-	return jar.components(separatedBy: "\n%\n")
+	var parsedJar = jar.components(separatedBy: "\n%\n")
+	parsedJar.removeLast()  //if you correctly finish your file with a %, there should be an empty slot
+	return parsedJar
 }
 
 func tellFortune(parsedJar: [String]) {
