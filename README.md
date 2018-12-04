@@ -8,7 +8,7 @@ $ git clone https://github.com/motform/virtual-fortunes.git
 $ cd virtual-fortunes
 $ swift build -c release -Xswiftc -static-stdlib
 $ cd .build/release
-$ cp -f virtualFortunes /usr/local/bin/virtualFortunes
+$ cp -f virtualfortunes /usr/local/bin/virtual-fortunes
 ```
 To make a the fortunes file into an environmental variable, follow the appropreate instructions for your shell.
 
@@ -25,7 +25,7 @@ set -Ux FORTUNES_FILE "path/to/ccru_fortunes"
 
 
 ## Usage
-Set `virtualFutures` as your prompt for maximum slogan density.
+Set `virtual-futures` as your prompt for maximum slogan density.
 
 ## TODO
 * Larger cookie jar
