@@ -26,7 +26,7 @@ set -Ux FORTUNES_FILE "path/to/ccru_fortunes"
 ## Usage
 Run `virtual-futures` from your terminal a bit more body into your organs. Use it as a prompt or greeting for maximum slogan density.
 
-By default, quotes are shown without context (qoutation marks and attribution). This can be enabled with the `-c` or `--context` flag.
+By default, quotes are shown without context (qoutation marks and attribution). Context is enabled with the `-c` or `--context` flag.
 
 ## TODO
 * Larger cookie jar
