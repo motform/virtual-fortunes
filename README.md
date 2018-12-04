@@ -15,12 +15,12 @@ To make a the fortunes file into an environmental variable, follow the approprea
 #### Bash/ZSH
 Add the following to your .rc:
 ```bash
-export FORTUNES_FILE="path/to/ccru_fortunes"
+export FORTUNES_FILE="path/to/virtual-fortunes-jar"
 ```
 #### Fish
 Run the following command:
 ```fish
-set -Ux FORTUNES_FILE "path/to/ccru_fortunes"
+set -Ux FORTUNES_FILE "path/to/virtual-fortunes-jar"
 ```
 
 ## Usage

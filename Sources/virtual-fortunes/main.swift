@@ -18,7 +18,7 @@ do {
 	// handle cases with argument jars, envVar jars and no Jar
 	if let path = result.get(path) {  // Honor input arguments
 		fortuneJar = try openJar(pathToJar: path.first!)
-	} else if let envJar = ProcessInfo.processInfo.environment["FORTUNE_FILE"] {
+	} else if let envJar = ProcessInfo.processInfo.environment["FORTUNES_FILE"] {
 		fortuneJar = try openJar(pathToJar: envJar)
 	} else {
 		print("No Cooike Jar found. Make sure FORTUNE_FILE is a valid environment variable.")
