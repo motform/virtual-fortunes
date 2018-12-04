@@ -31,4 +31,5 @@ By default, quotes are shown without context (marks and attributions). Context i
 ## TODO
 * Larger cookie jar
 * History, so that one can get the context of the most recent quote
-* Formatting options
+* Formatting options.
+* Flag to filter fortune length
