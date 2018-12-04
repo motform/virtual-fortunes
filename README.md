@@ -1,7 +1,5 @@
 # virtual-fortunes from a future past
-
-## Intro
-At its core, virtual-fortunes is a stripped down version of Ken Arnold's BSD classic [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)). It parses the cookie jar directly, no index required. 
+virtual-fortunes is a stripped down version of Ken Arnold's BSD classic [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)). It parses the cookie jar directly, no index required. 
 
 ## Installation
 For the moment, you have to build virtual-fortunes yourself. This means you need a Swift toolchain installed. If you are on macOS, you are in luck.
@@ -28,3 +26,9 @@ set -Ux FORTUNES_FILE "path/to/ccru_fortunes"
 
 ## Usage
 Set `virtualFutures` as your prompt for maximum slogan density.
+
+## TODO
+* Larger cookie jar
+* Flag to toogle quote context
+* History, so that one can get the context of the most recent quote
+* Formatting options
