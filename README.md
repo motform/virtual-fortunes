@@ -12,23 +12,23 @@ $ cp -f virtualfortunes /usr/local/bin/virtual-fortunes
 ```
 To make a the fortunes file into an environmental variable, follow the appropreate instructions for your shell.
 
-### Bash/ZSH
+#### Bash/ZSH
 Add the following to your .rc:
 ```bash
 export FORTUNES_FILE="path/to/ccru_fortunes"
 ```
-### Fish
+#### Fish
 Run the following command:
 ```fish
 set -Ux FORTUNES_FILE "path/to/ccru_fortunes"
 ```
 
-
 ## Usage
-Set `virtual-futures` as your prompt for maximum slogan density.
+Run `virtual-futures` from your terminal a bit more body into your organs. Use it as a prompt or greeting for maximum slogan density.
+
+By default, quotes are shown without context (qoutation marks and attribution). This can be enabled with the `-c` or `--context` flag.
 
 ## TODO
 * Larger cookie jar
-* Flag to toogle quote context
 * History, so that one can get the context of the most recent quote
 * Formatting options
